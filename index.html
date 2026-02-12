@@ -129,78 +129,69 @@
             </p>
           </div>
 
-          <div class="role-cards">
-            <!-- EMPLEADOR -->
-            <section class="role-card">
-              <div class="role-title">Empleador</div>
+        <div class="role-cards">
+  <!-- EMPLEADOR -->
+  <section class="role-card role-empleador">
+    <div class="role-title">Ingresar como Empleador</div>
 
-              <h3>Acceso a entorno de prueba</h3>
-              <p>
-                Este proyecto incluye perfiles preconfigurados únicamente para evaluación/demostración.
-                No se almacenan datos sensibles ni se gestionan pagos reales.
-              </p>
-
-              <!-- IMPORTANTE:
-                   Para reducir el riesgo de Safe Browsing, evitá el patrón "usuario/contraseña".
-                   Acá se muestra un identificador + "clave de entorno" (demo). -->
-              <div class="demo-box">
-                <p><strong>Perfil demostrativo:</strong> Empleador / Empleado</p>
-                <p>
-                  Identificador de prueba:
-                  <code>empleado1@ort.edu.ar</code>
-                </p>
-                <p>
-                  Clave de acceso (entorno demo):
-                  <code>Password1!</code>
-                </p>
-              </div>
-
-              <p>
-                Nota: estos datos corresponden exclusivamente a un entorno de demostración y no representan cuentas reales.
-              </p>
-
-              <h3>¿Qué puedo hacer?</h3>
-              <ul class="role-can">
-                <li>ABM de <strong>Productos, Categorías, Marcas y Sucursales</strong>.</li>
-                <li><strong>Gestionar stock por sucursal</strong>.</li>
-                <li><strong>Habilitar / deshabilitar</strong> productos.</li>
-                <li>ABM de <strong>Empleados</strong>.</li>
-                <li>Consultar <strong>compras del mes</strong> y su detalle.</li>
-              </ul>
-            </section>
-
-            <!-- CLIENTE -->
-            <section class="role-card">
-              <div class="role-title">Cliente (Usuario)</div>
-
-              <h3>Uso del entorno de prueba</h3>
-              <p>
-                La experiencia de cliente funciona como una tienda online demostrativa.
-                No hay pagos reales ni se solicitan datos bancarios.
-              </p>
-
-              <h3>¿Cómo empezar?</h3>
-              <ol class="steps">
-                <li>Ingresá a la demo desde el botón <em>Ver demo</em>.</li>
-                <li>Hacé clic en <strong>Registrarse</strong>.</li>
-                <li>Completá tus datos para crear una cuenta (demo).</li>
-                <li>Luego iniciá sesión para operar con el carrito.</li>
-              </ol>
-
-              <p>
-                Nota: el registro se usa solo para habilitar el flujo de compra y el historial dentro del proyecto (demo).
-              </p>
-
-              <h3>¿Qué puedo hacer?</h3>
-              <ul class="role-can">
-                <li>Navegar el catálogo sin iniciar sesión.</li>
-                <li>Agregar productos al carrito y modificar cantidades.</li>
-                <li><strong>Finalizar compra</strong> eligiendo sucursal.</li>
-                <li>Acceder al <strong>historial de compras</strong>.</li>
-                <li>Actualizar datos de contacto.</li>
-              </ul>
-            </section>
+    <h3>¿Cómo empezar?</h3>
+    <ol class="steps">
+      <li>Ingresá a la demo desde el botón <em>Ver demo</em>.</li>
+      <li>Hacé clic en <strong>Iniciar Sesión</strong>.</li>
+      <li>
+        Iniciá sesión como empleador:
+        <div class="cred-box" role="note" aria-label="Credenciales de prueba">
+          <div class="cred-row">
+            <span class="cred-label">Usuario</span>
+            <code class="cred-value">empleado1@ort.edu.ar</code>
           </div>
+          <div class="cred-row">
+            <span class="cred-label">Contraseña</span>
+            <code class="cred-value">Password1!</code>
+          </div>
+          <small class="cred-note">Credenciales solo para entorno de demostración.</small>
+        </div>
+      </li>
+      <li>Accedé al panel de administración.</li>
+      <li>Comenzá a gestionar productos, stock y empleados.</li>
+    </ol>
+
+   
+<p></p>
+    <h3>¿Qué puedo hacer?</h3>
+    <ul class="role-can">
+      <li>ABM de <strong>Productos, Categorías, Marcas y Sucursales</strong>.</li>
+      <li><strong>Gestionar stock por sucursal</strong>.</li>
+      <li><strong>Habilitar / deshabilitar</strong> productos.</li>
+      <li>ABM de <strong>Empleados</strong>.</li>
+      <li>Consultar <strong>compras del mes</strong> y su detalle.</li>
+    </ul>
+  </section>
+
+  <!-- CLIENTE -->
+  <section class="role-card">
+    <div class="role-title">Ingresar como Cliente (Usuario)</div>
+
+    <h3>¿Cómo empezar?</h3>
+    <ol class="steps">
+      <li>Ingresá a la demo desde el botón <em>Ver demo</em>.</li>
+      <li>Hacé clic en <strong>Registrarse</strong>.</li>
+      <li>Completá tus datos para crear una cuenta (demo).</li>
+      <li>Luego iniciá sesión para operar con el carrito.</li>
+    </ol>
+
+   
+
+    <h3>¿Qué puedo hacer?</h3>
+    <ul class="role-can">
+      <li>Navegar el catálogo sin iniciar sesión.</li>
+      <li>Agregar productos al carrito y modificar cantidades.</li>
+      <li><strong>Finalizar compra</strong> eligiendo sucursal.</li>
+      <li>Acceder al <strong>historial de compras</strong>.</li>
+      <li>Actualizar datos de contacto.</li>
+    </ul>
+  </section>
+</div>
 
           <div class="project-block">
             <h4>Tecnologías</h4>
@@ -222,8 +213,8 @@
           <h3>Sitio Web “Alta Pinta”</h3>
           <img src="imagenes/images.jpeg" alt="Proyecto Alta Pinta" loading="lazy" />
           <div class="project-links">
-            <a class="btn" href="https://altapintacerveceria.netlify.app/" target="_blank"
-              rel="noopener noreferrer">Ver demo</a>
+            <a class="btn" href="https://altapintacerveceria.netlify.app/" target="_blank" rel="noopener noreferrer">Ver
+              demo</a>
             <a class="btn github-btn" href="https://github.com/GregoIribarren94/AltaPinta" target="_blank"
               rel="noopener noreferrer">Código GitHub</a>
           </div>
@@ -317,8 +308,7 @@
 
     <div class="contacto">
       <div class="contacto-item">
-        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social"
-          alt="GitHub institucional" />
+        <img src="https://cdn-icons-png.flaticon.com/512/25/25231.png" class="red-social" alt="GitHub institucional" />
         <a href="https://github.com/GregoIribarren94" target="_blank" rel="noopener noreferrer">
           GitHub institucional
         </a>
