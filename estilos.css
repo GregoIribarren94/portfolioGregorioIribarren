@@ -29,6 +29,23 @@ body{
   padding: 0 16px;
 }
 
+.containerCursos{
+  color: black;
+  text-align: center;
+
+}
+
+ul {
+  list-style: none; 
+  padding: 0;
+}
+
+ul li::before {
+  content: "• ";
+  color: black;
+}
+
+
 header{
   height: 65px;
   background-color: var(--brand);
@@ -74,7 +91,7 @@ header{
 
 .caja-central{
   width: 100%;
-  max-width: 900px;
+  max-width: 1000px;
   display: flex;
   gap: 0;
   border-radius: 20px;
